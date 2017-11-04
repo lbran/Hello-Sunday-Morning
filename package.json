@@ -1,0 +1,20 @@
+{
+  "name": "hello_sunday_morning",
+  "version": "0.0.0",
+  "description": "Hello Sunday Morning",
+  "main": "app.js",
+  "author": "Health Hack 2017",
+  "engine": "node v6.4",
+  "dependencies": {
+    "express": "~4.6.1",
+    "npm-watch": "^0.3.0",
+    "twilio": "^3.9.2"
+  },
+  "watch": {
+    "start": "server/*.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "watch": "npm-watch"
+  }
+}
